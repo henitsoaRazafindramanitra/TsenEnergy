@@ -1,0 +1,26 @@
+﻿<Window x:Class="tsenEnergy.dashboardClient"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:tsenEnergy"
+        mc:Ignorable="d"
+        Title="dashboardClient" Height="450" Width="800">
+    <Grid>
+        <Border BorderBrush="Black" BorderThickness="1" Margin="0,0,513,0" Background="#FF75AA31">
+            <Button Content="Button" Margin="9,125,9,255"/>
+        </Border>
+        <Button Content="Button" Margin="10,217,523,165"/>
+        <Button Content="Button" Margin="10,300,523,82"/>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="96,84,0,0" VerticalAlignment="Top" Height="22" Width="94" RenderTransformOrigin="0.487,1.365"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="101,382,0,0" VerticalAlignment="Top" Height="22" Width="85"/>
+        <TextBox HorizontalAlignment="Left" Margin="334,32,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="428" Height="92" Text="Ne manquez pas cette occasion de devenir un consommateur responsable et de contribuer à la construction d'un avenir durable. Consulter nos produits ,  dès maintenant et découvrez nos produits d'énergie renouvelable de qualité exceptionnelle, conçus pour répondre à vos besoins et à vos valeurs." FontStyle="Italic" FontFamily="Century Gothic"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="316,154,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="465,170,0,0" VerticalAlignment="Top" Width="130"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="642,170,0,0" VerticalAlignment="Top" Width="118"/>
+        <TextBox HorizontalAlignment="Left" Margin="316,286,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="106" Height="107"/>
+        <TextBox HorizontalAlignment="Left" Margin="465,300,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="130" Height="98" RenderTransformOrigin="0.951,0.486"/>
+        <TextBox HorizontalAlignment="Left" Margin="649,303,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="113" Height="92"/>
+
+    </Grid>
+</Window>

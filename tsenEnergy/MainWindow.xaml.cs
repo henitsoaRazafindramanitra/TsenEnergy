@@ -30,7 +30,7 @@ namespace tsenEnergy
             //InscriptionForm inscriptionForm = new InscriptionForm();
             //inscriptionForm.Show();
 
-            this.Hide();
+            //this.Hide();
 
         }
 

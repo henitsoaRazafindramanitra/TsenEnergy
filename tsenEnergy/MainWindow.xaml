@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid Height="450">
-        <Border BorderBrush="Black" BorderThickness="1" Margin="0,0,0,376" Background="#FF75AA31">
+        <Border x:Name="Header" BorderBrush="Black" BorderThickness="1" Margin="0,0,0,376" Background="#FF75AA31">
             <Button x:Name="bt_inscription" Content="Créer compte" Background="#FF75AA31" RenderTransformOrigin="0.601,0.485" FontWeight="Bold" FontFamily="Century Gothic" FontSize="15" Foreground="White" Margin="483,13,136,13" BorderBrush="#FF75AA31" Click="bt_inscription_Click"/>
         </Border>
         <Image x:Name="logo" HorizontalAlignment="Left" Height="75" Margin="10,79,0,0" VerticalAlignment="Top" Width="76" Source="/logo_tsenEnergy.png" RenderTransformOrigin="0.491,0.778"/>
