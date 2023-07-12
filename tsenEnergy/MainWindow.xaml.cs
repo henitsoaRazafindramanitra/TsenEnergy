@@ -42,5 +42,12 @@ namespace tsenEnergy
            
            // this.Hide();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            InscriptionFournisseur interfacefour = new InscriptionFournisseur();
+            interfacefour.Show();
+            this.Hide();
+        }
     }
 }

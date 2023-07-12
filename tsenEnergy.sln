@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tsenEnergy", "tsenEnergy\tsenEnergy.csproj", "{111114C1-FB90-44AB-A57A-FEC7BDBA60D5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{477D6850-07A9-4EC7-8409-12B7670F914F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
