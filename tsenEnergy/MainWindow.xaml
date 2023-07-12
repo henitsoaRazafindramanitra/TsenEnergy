@@ -15,6 +15,7 @@
         <TextBlock x:Name="txtblc_presentation" HorizontalAlignment="Left" Margin="381,197,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="102" Width="359" Text="Bienvenue sur Tsen'Energy votre plateforme de vente de produits d'énergie renouvelable ! Nous sommes dédiés à fournir des solutions énergétiques durables pour un avenir plus propre et plus respectueux de l'environnement. Découvrez notre large gamme de produits, allant des panneaux solaires aux systèmes de stockage d'énergie, pour vous aider à réduire votre empreinte carbone et à adopter un mode de vie plus écologique. Rejoignez-nous dans notre mission de faire progresser la transition énergétique et d'œuvrer ensemble pour un avenir durable." FontFamily="Century Gothic" FontSize="9"/>
         <Button x:Name="bt_identifier" Content="S'identifier" Background="#FF75AA31" RenderTransformOrigin="0.601,0.485" FontWeight="Bold" FontFamily="Century Gothic" FontSize="15" Foreground="White" Margin="648,14,29,390" BorderBrush="#FF75AA31" Click="bt_identifier_Click"/>
         <TextBox x:Name="txtbox_adresse" HorizontalAlignment="Left" Margin="223,397,0,0" TextWrapping="Wrap" Text="Tsen'Enerjy - 20,rue Rainandriamapandry - Antanarivo, MADAGASCAR " VerticalAlignment="Top" Width="548" Height="43" FontFamily="Century Gothic" BorderBrush="White" FontSize="8"/>
+        <Button Content="Fournisseur" HorizontalAlignment="Left" Margin="611,346,0,0" VerticalAlignment="Top" Width="78" Click="Button_Click"/>
 
     </Grid>
 </Window>
