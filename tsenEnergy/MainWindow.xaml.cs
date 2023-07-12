@@ -36,11 +36,11 @@ namespace tsenEnergy
 
         private void bt_identifier_Click(object sender, RoutedEventArgs e)
         {
-            // LoginForm loginForm = new LoginForm();
-            //loginForm.Show();
+            login loginForm = new login();
+            loginForm.Show();
 
-           
-           // this.Hide();
+
+            this.Hide();
         }
     }
 }
